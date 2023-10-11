@@ -29,7 +29,7 @@ if exist opencv_contrib (
 @REM )
 
 @REM rmdir /s /q build
-rmdir /s /q opencv-install-nopy
+@REM rmdir /s /q opencv-install-nopy
 echo "Begin cmake"
 mkdir build
 cd build
