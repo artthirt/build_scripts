@@ -28,7 +28,7 @@ if exist opencv_contrib (
 @REM     git clone --depth 1 --tag v1.14.1 https://github.com/onnx/onnx.git
 @REM )
 
-@REM rmdir /s /q build
+rmdir /s /q build
 @REM rmdir /s /q opencv-install-nopy
 echo "Begin cmake"
 mkdir build

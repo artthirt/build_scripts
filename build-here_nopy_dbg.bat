@@ -22,7 +22,7 @@ if exist opencv_contrib (
     git clone --depth 1 --recursive https://github.com/opencv/opencv_contrib.git
 )
 
-@REM rmdir /s /q build
+rmdir /s /q build
 echo "Begin cmake"
 mkdir build
 cd build
